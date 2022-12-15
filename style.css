@@ -1,0 +1,73 @@
+.game {
+    width: 440px;
+    display: grid;
+    align-items: center;
+    gap: 50px;
+    padding: 75px 25px;
+    background: url("./images/pexels-pixabay-371924.jpg") center no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.game_health {
+    position: relative;
+    width: 200px;
+    height: 25px;
+    border: 2px solid #fff;
+    margin-left: auto;
+}
+
+.game_health-number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+}
+
+.game_health-bar {
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}
+
+.game_title {
+    font-size: 24px;
+
+}
+
+.game_number {
+    display: grid;
+    place-items: center;
+    width: 75px;
+    height: 75px;
+    font-size: 42px;
+    color: #ce4b05;
+    margin: 20px auto;
+    background-color: url("./images/pexels-nadim-shaikh-7758348.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.game_feedback {
+    font-size: 14px;
+}
+
+.game footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.game_button {
+    padding: 10px 15px;
+    box-shadow: 5px 5px #000;
+    cursor: pointer;
+}
+
+.game_button-play {
+    background-color: green;
+}
+
+.game_button-reset {
+    background-color: blue;
+}
